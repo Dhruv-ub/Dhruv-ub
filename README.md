@@ -1,5 +1,3 @@
-![Headergif](./static/11.gif)
-
 ## Hi, Dhruv Here 👋
 
 - 🔭 Currently building **Chemical Parameter Visualizer** — a data-driven platform that helps visualize, analyze, and compare chemical parameters using interactive charts, statistical summaries, and exportable reports, making complex chemical datasets easier to understand and explore.
@@ -12,12 +10,13 @@
 
 ## 🌐 Connect With Me
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/dhruv-kumar-singh/)
-[![GitHub](https://img.shields.io/badge/GitHub-%23121011.svg?logo=github&logoColor=white)](https://github.com/Dhruv-ub)
+[![LeetCode](https://img.shields.io/badge/LeetCode-FFA116?logo=leetcode&logoColor=black)](https://leetcode.com/Dhruv-sg)
+
 
 ---
 
 ## 💻 Tech Stack
-![Tech Stack](./static/22.png)
+![Tech Stack](./22.png)
 
 <table>
 <tr>
