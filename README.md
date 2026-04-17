@@ -11,7 +11,7 @@
 ## 🌐 Connect With Me
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/dhruv-kumar-singh/)
 [![LeetCode](https://img.shields.io/badge/LeetCode-FFA116?logo=leetcode&logoColor=black)](https://leetcode.com/Dhruv-sg)
-[![Codeforces](https://img.shields.io/badge/Codeforces-445f9d?style=flat&logo=codeforces&logoColor=white)](https://codeforces.com/profile/dhruv_adc/)
+[![Codeforces](https://img.shields.io/badge/Codeforces-445f9d?style=flat&logo=codeforces&logoColor=white)](https://codeforces.com/profile/Dhruv_slc)
 
 ---
 
