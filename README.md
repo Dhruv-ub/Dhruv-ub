@@ -1,6 +1,10 @@
 <div align="center">
 
-<img src="./assets/header.svg" alt="Dhruv Kumar Singh — Machine Learning, Deep Learning, Computer Vision, LLM and RAG" width="100%"/>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/header-dark.svg"/>
+  <source media="(prefers-color-scheme: light)" srcset="./assets/header-light.svg"/>
+  <img src="./assets/header-light.svg" alt="Dhruv Kumar Singh — Machine Learning, Deep Learning, Computer Vision, LLM and RAG" width="100%"/>
+</picture>
 
 <p>
   <a href="https://www.linkedin.com/in/dhruv-kumar-singh/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
@@ -9,14 +13,26 @@
   <a href="mailto:dksaniel2@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
 </p>
 
-<img src="./assets/marquee.svg" alt="PyTorch · CNNs · EfficientNet · OpenCV · ONNX · Transformers · RAG · FAISS · llama.cpp · Quantization" width="100%"/>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/marquee-dark.svg"/>
+  <source media="(prefers-color-scheme: light)" srcset="./assets/marquee-light.svg"/>
+  <img src="./assets/marquee-light.svg" alt="PyTorch · CNNs · EfficientNet · OpenCV · ONNX · Transformers · RAG · FAISS · llama.cpp · Quantization" width="100%"/>
+</picture>
 
 </div>
 
 <br/>
 
-<img src="./assets/sec-now.svg" alt="01 Now" width="100%"/>
-<img src="./assets/now.svg" alt="Live status" width="100%"/>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/sec-now-dark.svg"/>
+  <source media="(prefers-color-scheme: light)" srcset="./assets/sec-now-light.svg"/>
+  <img src="./assets/sec-now-light.svg" alt="01 Now" width="100%"/>
+</picture>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/now-dark.svg"/>
+  <source media="(prefers-color-scheme: light)" srcset="./assets/now-light.svg"/>
+  <img src="./assets/now-light.svg" alt="Live status" width="100%"/>
+</picture>
 
 <br/>
 
@@ -24,8 +40,16 @@ I like machine learning that **holds up under scrutiny**: out-of-fold evaluation
 
 <br/>
 
-<img src="./assets/sec-stack.svg" alt="02 Stack" width="100%"/>
-<img src="./assets/skills.svg" alt="Skills: deep learning and vision, LLM and RAG, ML techniques, libraries, languages, tools" width="100%"/>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/sec-stack-dark.svg"/>
+  <source media="(prefers-color-scheme: light)" srcset="./assets/sec-stack-light.svg"/>
+  <img src="./assets/sec-stack-light.svg" alt="02 Stack" width="100%"/>
+</picture>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/skills-dark.svg"/>
+  <source media="(prefers-color-scheme: light)" srcset="./assets/skills-light.svg"/>
+  <img src="./assets/skills-light.svg" alt="Skills: deep learning and vision, LLM and RAG, ML techniques, libraries, languages, tools" width="100%"/>
+</picture>
 
 <div align="center">
 <img src="./22.png" alt="Tech stack" width="100%"/>
@@ -33,15 +57,27 @@ I like machine learning that **holds up under scrutiny**: out-of-fold evaluation
 
 <br/>
 
-<img src="./assets/sec-flagship.svg" alt="03 Flagship project" width="100%"/>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/sec-flagship-dark.svg"/>
+  <source media="(prefers-color-scheme: light)" srcset="./assets/sec-flagship-light.svg"/>
+  <img src="./assets/sec-flagship-light.svg" alt="03 Flagship project" width="100%"/>
+</picture>
 
 ### 👁️ Diabetic Retinopathy Grading with CNN Ensembles
 **PyTorch · OpenCV · Scikit-learn · NumPy · Matplotlib** &nbsp;·&nbsp; [**📂 Repository**](https://github.com/Dhruv-ub/YOUR_DR_REPO)
 
 A 5-grade DR classifier on APTOS 2019, built around **evaluation you can trust** rather than a single lucky validation score. EfficientNet-B0 and B2 are fine-tuned from ImageNet weights with a **hybrid head**: 5 class logits plus 1 **ordinal regression** output, because DR grades are ordered (calling a 4 a "0" is worse than calling it a "3").
 
-<img src="./assets/metrics.svg" alt="Out-of-fold results: macro PR-AUC 0.759, ROC-AUC 0.960, QWK 0.922, referable-DR AUC 0.987" width="100%"/>
-<img src="./assets/pipeline.svg" alt="Pipeline from fundus image to calibrated grade" width="100%"/>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/metrics-dark.svg"/>
+  <source media="(prefers-color-scheme: light)" srcset="./assets/metrics-light.svg"/>
+  <img src="./assets/metrics-light.svg" alt="Out-of-fold results: macro PR-AUC 0.759, ROC-AUC 0.960, QWK 0.922, referable-DR AUC 0.987" width="100%"/>
+</picture>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/pipeline-dark.svg"/>
+  <source media="(prefers-color-scheme: light)" srcset="./assets/pipeline-light.svg"/>
+  <img src="./assets/pipeline-light.svg" alt="Pipeline from fundus image to calibrated grade" width="100%"/>
+</picture>
 
 <table>
 <tr><th align="left">What the experiments showed</th><th align="left">Evidence (5-fold out-of-fold, n = 3,295)</th></tr>
@@ -58,7 +94,11 @@ A 5-grade DR classifier on APTOS 2019, built around **evaluation you can trust**
 
 <br/>
 
-<img src="./assets/sec-more.svg" alt="04 More work" width="100%"/>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/sec-more-dark.svg"/>
+  <source media="(prefers-color-scheme: light)" srcset="./assets/sec-more-light.svg"/>
+  <img src="./assets/sec-more-light.svg" alt="04 More work" width="100%"/>
+</picture>
 
 <table>
 <tr>
@@ -103,12 +143,24 @@ A 5-grade DR classifier on APTOS 2019, built around **evaluation you can trust**
 
 <br/>
 
-<img src="./assets/sec-journey.svg" alt="05 Journey" width="100%"/>
-<img src="./assets/journey.svg" alt="Timeline: VIT 2023, Legal Gini 2025, RAG QA 2025, DAE 2026, DR grading 2026" width="100%"/>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/sec-journey-dark.svg"/>
+  <source media="(prefers-color-scheme: light)" srcset="./assets/sec-journey-light.svg"/>
+  <img src="./assets/sec-journey-light.svg" alt="05 Journey" width="100%"/>
+</picture>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/journey-dark.svg"/>
+  <source media="(prefers-color-scheme: light)" srcset="./assets/journey-light.svg"/>
+  <img src="./assets/journey-light.svg" alt="Timeline: VIT 2023, Legal Gini 2025, RAG QA 2025, DAE 2026, DR grading 2026" width="100%"/>
+</picture>
 
 <br/>
 
-<img src="./assets/sec-oss.svg" alt="06 Open source" width="100%"/>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/sec-oss-dark.svg"/>
+  <source media="(prefers-color-scheme: light)" srcset="./assets/sec-oss-light.svg"/>
+  <img src="./assets/sec-oss-light.svg" alt="06 Open source" width="100%"/>
+</picture>
 
 ### [OpenWISP](https://github.com/openwisp)
 - **NetJSONGraph.js:** resolved frontend label overlap and rendering issues, improving map readability for large network topologies.
@@ -116,7 +168,11 @@ A 5-grade DR classifier on APTOS 2019, built around **evaluation you can trust**
 
 <br/>
 
-<img src="./assets/sec-activity.svg" alt="07 Activity" width="100%"/>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/sec-activity-dark.svg"/>
+  <source media="(prefers-color-scheme: light)" srcset="./assets/sec-activity-light.svg"/>
+  <img src="./assets/sec-activity-light.svg" alt="07 Activity" width="100%"/>
+</picture>
 
 <div align="center">
 
@@ -126,12 +182,24 @@ A 5-grade DR classifier on APTOS 2019, built around **evaluation you can trust**
   <img alt="Contribution snake" src="https://raw.githubusercontent.com/Dhruv-ub/Dhruv-ub/output/github-snake.svg" width="100%"/>
 </picture>
 
-<img src="./profile-summary-card-output/tokyonight/3-stats.svg" alt="GitHub stats" width="49%"/>
-<img src="./profile-summary-card-output/tokyonight/2-most-commit-language.svg" alt="Most used languages" width="49%"/>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./profile-summary-card-output/tokyonight/3-stats.svg"/>
+  <source media="(prefers-color-scheme: light)" srcset="./profile-summary-card-output/default/3-stats.svg"/>
+  <img src="./profile-summary-card-output/default/3-stats.svg" alt="GitHub stats" width="49%"/>
+</picture>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./profile-summary-card-output/tokyonight/2-most-commit-language.svg"/>
+  <source media="(prefers-color-scheme: light)" srcset="./profile-summary-card-output/default/2-most-commit-language.svg"/>
+  <img src="./profile-summary-card-output/default/2-most-commit-language.svg" alt="Most used languages" width="49%"/>
+</picture>
 
 <img src="./static/33.gif" alt="" width="100%"/>
 
-<img src="./assets/footer.svg" alt="Let's build ML you can trust." width="100%"/>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/footer-dark.svg"/>
+  <source media="(prefers-color-scheme: light)" srcset="./assets/footer-light.svg"/>
+  <img src="./assets/footer-light.svg" alt="Let's build ML you can trust." width="100%"/>
+</picture>
 
 <a href="https://visitcount.itsvg.in"><img src="https://visitcount.itsvg.in/api?id=Dhruv-ub&icon=0&color=0" alt="visitors"/></a>
 
