@@ -201,6 +201,6 @@ A 5-grade DR classifier on APTOS 2019, built around **evaluation you can trust**
   <img src="./assets/footer-light.svg" alt="Let's build ML you can trust." width="100%"/>
 </picture>
 
-<a href="https://visitcount.itsvg.in"><img src="https://visitcount.itsvg.in/api?id=Dhruv-ub&icon=0&color=0" alt="visitors"/></a>
+<!-- <a href="https://visitcount.itsvg.in"><img src="https://visitcount.itsvg.in/api?id=Dhruv-ub&icon=0&color=0" alt="visitors"/></a> -->
 
 </div>
