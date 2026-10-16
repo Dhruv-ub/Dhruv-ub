@@ -1,104 +1,138 @@
-## Hi, Dhruv Here 👋
+<div align="center">
 
-- 🔭 Currently building **Snapcart** — a real-time quick commerce platform featuring live geospatial tracking, bi-directional chat, and a decoupled microservices architecture.
-- 🤝 Looking to collaborate on high-concurrency systems, real-time applications, and open-source tooling.
-- 🌱 Currently learning **System Design**, **Next.js 16 (Server Actions)**, and **Microservices Patterns**.
-- 💬 Ask me about **Backend Architecture**, **Real-time WebSockets**, and **Scalable Database Design**.
-- ⭐ Visit my portfolio to see my latest work.
+<img src="./assets/header.svg" alt="Dhruv Kumar Singh — Machine Learning, Deep Learning, Computer Vision, LLM and RAG" width="100%"/>
 
----
+<p>
+  <a href="https://www.linkedin.com/in/dhruv-kumar-singh/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
+  <a href="https://leetcode.com/Dhruv-sg"><img src="https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=black" alt="LeetCode"/></a>
+  <a href="https://codeforces.com/profile/Dhruv_slc"><img src="https://img.shields.io/badge/Codeforces-445F9D?style=for-the-badge&logo=codeforces&logoColor=white" alt="Codeforces"/></a>
+  <a href="mailto:dksaniel2@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
+</p>
 
-## 🌐 Connect With Me
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/dhruv-kumar-singh/)
-[![LeetCode](https://img.shields.io/badge/LeetCode-FFA116?logo=leetcode&logoColor=black)](https://leetcode.com/Dhruv-sg)
-[![Codeforces](https://img.shields.io/badge/Codeforces-445f9d?style=flat&logo=codeforces&logoColor=white)](https://codeforces.com/profile/Dhruv_slc)
+<img src="./assets/marquee.svg" alt="PyTorch · CNNs · EfficientNet · OpenCV · ONNX · Transformers · RAG · FAISS · llama.cpp · Quantization" width="100%"/>
 
----
+</div>
 
-## 💻 Tech Stack
-![Tech Stack](./22.png)
+<br/>
+
+<img src="./assets/sec-now.svg" alt="01 Now" width="100%"/>
+<img src="./assets/now.svg" alt="Live status" width="100%"/>
+
+<br/>
+
+I like machine learning that **holds up under scrutiny**: out-of-fold evaluation, calibrated probabilities, honest ablations, and failure analysis, across **deep learning for vision** and **RAG for language**. This summer I built an on-prem LLM + RAG platform at the Department of Atomic Energy; right now I'm putting the same rigor into a medical-imaging project.
+
+<br/>
+
+<img src="./assets/sec-stack.svg" alt="02 Stack" width="100%"/>
+<img src="./assets/skills.svg" alt="Skills: deep learning and vision, LLM and RAG, ML techniques, libraries, languages, tools" width="100%"/>
+
+<div align="center">
+<img src="./22.png" alt="Tech stack" width="100%"/>
+</div>
+
+<br/>
+
+<img src="./assets/sec-flagship.svg" alt="03 Flagship project" width="100%"/>
+
+### 👁️ Diabetic Retinopathy Grading with CNN Ensembles
+**PyTorch · OpenCV · Scikit-learn · NumPy · Matplotlib** &nbsp;·&nbsp; [**📂 Repository**](https://github.com/Dhruv-ub/YOUR_DR_REPO)
+
+A 5-grade DR classifier on APTOS 2019, built around **evaluation you can trust** rather than a single lucky validation score. EfficientNet-B0 and B2 are fine-tuned from ImageNet weights with a **hybrid head**: 5 class logits plus 1 **ordinal regression** output, because DR grades are ordered (calling a 4 a "0" is worse than calling it a "3").
+
+<img src="./assets/metrics.svg" alt="Out-of-fold results: macro PR-AUC 0.759, ROC-AUC 0.960, QWK 0.922, referable-DR AUC 0.987" width="100%"/>
+<img src="./assets/pipeline.svg" alt="Pipeline from fundus image to calibrated grade" width="100%"/>
+
+<table>
+<tr><th align="left">What the experiments showed</th><th align="left">Evidence (5-fold out-of-fold, n = 3,295)</th></tr>
+<tr><td>Ben-Graham contrast preprocessing <b>hurt</b></td><td>macro PR-AUC 0.705 vs 0.750; QWK 0.898 vs 0.916 → kept plain crop and reported the negative result</td></tr>
+<tr><td>B0 and B2 are a <b>tie</b></td><td>0.750 vs 0.740 macro PR-AUC, within fold noise (std ≈ 0.025–0.028)</td></tr>
+<tr><td>Ensembling helps a little</td><td>B0 + B2 reaches 0.759 (+0.008 over B0): real but small, so I don't oversell it</td></tr>
+<tr><td>The raw model was <b>overconfident</b></td><td>temperature T ≈ 1.56; ECE 0.065 → 0.021 without changing the ranking</td></tr>
+<tr><td>Where it fails</td><td>On the 367-image holdout, 22 Moderate cases were called Severe and 13 Proliferative cases were missed (7 of them called Moderate)</td></tr>
+</table>
+
+**Method highlights:** one-time cached 512 px preprocessing (shared verbatim between training and inference) · GPU-side augmentation · EMA weights with a fixed schedule (no best-epoch picking) · 5-fold cross-validation with a locked holdout · ensemble chosen on out-of-fold data only · cut points, temperature and screening threshold fitted on out-of-fold data.
+
+> ⚠️ Research prototype on a single public dataset (APTOS 2019, image-level split). The holdout was scored twice; out-of-fold results are the headline. Not clinically validated, not a medical device.
+
+<br/>
+
+<img src="./assets/sec-more.svg" alt="04 More work" width="100%"/>
 
 <table>
 <tr>
 <td width="50%" valign="top">
 
-### Languages
-![C++](https://img.shields.io/badge/C++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white)
-![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)
-![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
-![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
+#### 📄 Retrieval-Augmented Document QA
+`Python` `PyTorch` `FAISS` `TinyLlama` `Gradio` · [🤗 Live demo](https://huggingface.co/spaces/YOUR_SPACE)
 
-### Frameworks & Libraries
-![Next JS](https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white)
-![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
-![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white)
-![Express](https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge)
-![Socket.io](https://img.shields.io/badge/Socket.io-black?style=for-the-badge&logo=socket.io&badgeColor=010101)
-![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)
-![Django](https://img.shields.io/badge/django-%23092E20.svg?style=for-the-badge&logo=django&logoColor=white)
+- End-to-end RAG pipeline with TinyLlama, tuned for low-latency **CPU-only** inference.
+- **FAISS** vector search for sub-second semantic retrieval over uploaded PDFs.
+- Gradio app on Hugging Face for grounded, real-time Q&A.
 
 </td>
 <td width="50%" valign="top">
 
-### Databases & Cloud
-![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white)
-![AWS](https://img.shields.io/badge/aws-%23232F3E.svg?style=for-the-badge&logo=amazonaws&logoColor=white)
-![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)
+#### 🏢 AI Engineering Intern · Dept. of Atomic Energy
+`llama.cpp` `GGUF` `RAG` `OCR` `FastAPI` `React`
 
-### Tools & Platforms
-![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
-![Redux](https://img.shields.io/badge/redux-%23593d88.svg?style=for-the-badge&logo=redux&logoColor=white)
-![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white)
+- Deployed quantized GGUF LLMs with **llama.cpp** for secure, CPU-only on-prem inference.
+- Built a RAG pipeline (OCR → embeddings → vector retrieval → QA) over scanned confidential documents.
+- Cut document lookup from **15 minutes to under 30 seconds**.
 
 </td>
 </tr>
 </table>
 
----
+<details>
+<summary><b>🧱 Full-stack &amp; systems work (click to expand)</b></summary>
 
-## 🚀 Featured Projects
+<br/>
 
-### 🛒 Snapcart - Real-time Quick Commerce
-**Tech Stack:** Next.js 16, TypeScript, Socket.io, Redux Toolkit, Leaflet Maps, Stripe
+**🛒 Snapcart: real-time quick commerce** · `Next.js 16` `TypeScript` `Socket.io` `Redux Toolkit` `Leaflet` `Stripe`
+- Decoupled the **Socket.io** server from the Next.js core to handle geospatial events independently.
+- Live order tracking with **Leaflet + WebSockets**; role-based access (Admin / User / Delivery) with **NextAuth v5**.
+- **Redux Toolkit** state management and **Stripe** webhooks for resilient payments.
 
-A high-performance hyperlocal delivery platform engineered for sub-second synchronization.
+**🧪 Chemical Parameter Visualizer** · `Django` `React.js` `PyQt5` `SQLite` `Pandas` `Chart.js`
+- One Django API serving both a React web client and a PyQt5 desktop app.
+- **Pandas** summaries over industrial CSV datasets, plus PDF report export.
 
-- **Microservices Architecture:** Decoupled the **Socket.io** server from the Next.js core to handle high-concurrency geospatial events independently.
-- **Real-Time Tracking:** Implemented live order tracking using **Leaflet** and **WebSockets**, enabling instant location updates for users and delivery partners.
-- **Role-Based Security:** Architected a secure RBAC system for Admin, User, and Delivery roles using **NextAuth v5**.
-- **Performance:** Optimized state management with **Redux Toolkit** and integrated **Stripe** webhooks for resilient payment processing.
+</details>
 
----
+<br/>
 
-### 🧪 Chemical Parameter Visualizer 2
-**Tech Stack:** Django, React.js, PyQt5, SQLite, Pandas, Chart.js
+<img src="./assets/sec-journey.svg" alt="05 Journey" width="100%"/>
+<img src="./assets/journey.svg" alt="Timeline: VIT 2023, Legal Gini 2025, RAG QA 2025, DAE 2026, DR grading 2026" width="100%"/>
 
-A unified chemical data analysis platform bridging web and desktop environments.
+<br/>
 
-- **Centralized API:** Designed a Django backend serving both a React web client and a PyQt5 desktop application.
-- **Data Engineering:** Processed industrial CSV datasets using **Pandas** to generate automated statistical summaries.
-- **Reporting:** Built an export engine to generate detailed PDF analytical reports from dynamic chart data.
-
----
-
-## 🌍 Open Source Contributions
+<img src="./assets/sec-oss.svg" alt="06 Open source" width="100%"/>
 
 ### [OpenWISP](https://github.com/openwisp)
-- **NetJSONGraph.js:** Resolved complex frontend label overlap and rendering issues, improving map readability for large network topologies.
-- **Wifi Login Pages:** Contributed to configuration management improvements and CI/CD pipeline fixes.
+- **NetJSONGraph.js:** resolved frontend label overlap and rendering issues, improving map readability for large network topologies.
+- **Wifi Login Pages:** contributed to configuration management improvements and CI/CD pipeline fixes.
 
----
+<br/>
 
-![Stats](./static/33.gif)
+<img src="./assets/sec-activity.svg" alt="07 Activity" width="100%"/>
 
-## 📊 GitHub Stats
-<div>
+<div align="center">
 
-![](https://github-readme-stats.vercel.app/api/top-langs/?username=Dhruv-ub&theme=tokyonight&hide_border=false&layout=compact)
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Dhruv-ub/Dhruv-ub/output/github-snake-dark.svg"/>
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Dhruv-ub/Dhruv-ub/output/github-snake.svg"/>
+  <img alt="Contribution snake" src="https://raw.githubusercontent.com/Dhruv-ub/Dhruv-ub/output/github-snake.svg" width="100%"/>
+</picture>
+
+<img src="./profile-summary-card-output/tokyonight/3-stats.svg" alt="GitHub stats" width="49%"/>
+<img src="./profile-summary-card-output/tokyonight/2-most-commit-language.svg" alt="Most used languages" width="49%"/>
+
+<img src="./static/33.gif" alt="" width="100%"/>
+
+<img src="./assets/footer.svg" alt="Let's build ML you can trust." width="100%"/>
+
+<a href="https://visitcount.itsvg.in"><img src="https://visitcount.itsvg.in/api?id=Dhruv-ub&icon=0&color=0" alt="visitors"/></a>
 
 </div>
-
----
-[![](https://visitcount.itsvg.in/api?id=Dhruv-ub&icon=0&color=0)](https://visitcount.itsvg.in)
