@@ -64,7 +64,7 @@ I like machine learning that **holds up under scrutiny**: out-of-fold evaluation
 </picture>
 
 ### 👁️ Diabetic Retinopathy Grading with CNN Ensembles
-**PyTorch · OpenCV · Scikit-learn · NumPy · Matplotlib** &nbsp;·&nbsp; [**📂 Repository**](https://github.com/Dhruv-ub/YOUR_DR_REPO)
+**PyTorch · OpenCV · Scikit-learn · NumPy · Matplotlib** &nbsp;·&nbsp; [**📂 Repository**]()
 
 A 5-grade DR classifier on APTOS 2019, built around **evaluation you can trust** rather than a single lucky validation score. EfficientNet-B0 and B2 are fine-tuned from ImageNet weights with a **hybrid head**: 5 class logits plus 1 **ordinal regression** output, because DR grades are ordered (calling a 4 a "0" is worse than calling it a "3").
 
@@ -105,7 +105,7 @@ A 5-grade DR classifier on APTOS 2019, built around **evaluation you can trust**
 <td width="50%" valign="top">
 
 #### 📄 Retrieval-Augmented Document QA
-`Python` `PyTorch` `FAISS` `TinyLlama` `Gradio` · [🤗 Live demo](https://huggingface.co/spaces/YOUR_SPACE)
+`Python` `PyTorch` `FAISS` `TinyLlama` `Gradio` · [🤗 Live demo](https://github.com/Dhruv-ub/Retrieval-Augmented-Document-QA)
 
 - End-to-end RAG pipeline with TinyLlama, tuned for low-latency **CPU-only** inference.
 - **FAISS** vector search for sub-second semantic retrieval over uploaded PDFs.
