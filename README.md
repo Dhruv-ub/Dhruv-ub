@@ -64,7 +64,7 @@ I like machine learning that **holds up under scrutiny**: out-of-fold evaluation
 </picture>
 
 ### 👁️ Diabetic Retinopathy Grading with CNN Ensembles
-**PyTorch · OpenCV · Scikit-learn · NumPy · Matplotlib** &nbsp;·&nbsp; [**📂 Repository**]()
+**PyTorch · OpenCV · Scikit-learn · NumPy · Matplotlib** &nbsp;·&nbsp; 
 
 A 5-grade DR classifier on APTOS 2019, built around **evaluation you can trust** rather than a single lucky validation score. EfficientNet-B0 and B2 are fine-tuned from ImageNet weights with a **hybrid head**: 5 class logits plus 1 **ordinal regression** output, because DR grades are ordered (calling a 4 a "0" is worse than calling it a "3").
 
